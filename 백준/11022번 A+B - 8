@@ -1,0 +1,5 @@
+num=int(input()) # 반복횟수 넣기 
+for i in range(1,num+1): # 반복만큼 계산
+    a,b=map(int,input().split())# 값넣음
+    print(f"Case #{i}: {a} + {b} = {a+b}")
+# 7번과 똑같았음
