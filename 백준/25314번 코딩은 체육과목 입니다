@@ -1,3 +1,0 @@
-insert = int(input()) # 비트 값을 넣음
-num=insert//4 # 반복횟수를 계산 
-print("long "*num+"int")
